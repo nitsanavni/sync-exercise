@@ -33,6 +33,7 @@ const syncImpl = () => {
     return async () => {};
 };
 
+// to run this test, run: `npx ava sync.test.mjs` from cli
 test("all iterations are synchronized", async (t) => {
     t.plan(10);
 
